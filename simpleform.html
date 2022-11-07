@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Basic Form</title>
+</head>
+<body style="font-family: 'Lucida Sans Unicode', Tahoma, sans-serif">
+    <h1>Order Form</h1>
+    <p>What would you like to buy?</p>
+    <select name="buyoption">
+        <option value="buyoption">A</option>
+        <option value="buyoption">B</option>
+        <option value="buyoption">C</option>
+        <option value="buyoption">D</option>
+    </select>
+    <p>How many would you like to buy?</p>
+    <form>
+        <input type="radio" name="buynumber" id="option1">
+        <label for="option1">1- $10</label><br>
+        <input type="radio" name="buynumber" id="option2">
+        <label for="option2">2- $20</label><br>
+        <input type="radio" name="buynumber" id="option3">
+        <label for="option3">3- $25</label><br>
+    </form>
+    <form>
+        <label>Name</label><br>
+        <input placeholder="FirstName" type="text" required>
+        <input placeholder="Lastname" type="text" required>
+    </form>
+    <form>
+        <label>Email</label><br>
+        <input type="email" size="50">
+    </form>
+    <form>
+        <label>Phone Number</label><br>
+        <input type="tel" size="10"> -
+        <input type="tel" size="10"> -
+        <input type="tel" size="10">
+    </form>
+    <input type="submit">
+</body>
+</html>
